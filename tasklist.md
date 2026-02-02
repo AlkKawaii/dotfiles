@@ -25,4 +25,5 @@
 - [ ] Aliases
 - [ ] Configurar reflector ou eos-rankmirros ou qualquer equivalente
 - [ ] Ativar automaticamente numlock
-- [ ] 
+- [ ] Discord
+- [ ] Area de transferencia
