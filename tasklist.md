@@ -7,7 +7,7 @@
 
 # No Linux
 
-- [ ] Configurar snapshoting - timeshift - btrfs
+- [ ] Configurar snapshoting - timeshift/snapper - btrfs
 - [ ] Instalar btop
 - [ ] Descobrir o _*Rice*_
 - [ ] Ajeitar driver NVIDIA
