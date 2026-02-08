@@ -1,15 +1,14 @@
 # Fazer antes de trocar para o Linux
 
-- [ ] Criar um script de deploy para os dotfiles baseado nisso https://github.com/rexim/dotfiles/blob/master/deploy.sh
-- [ ] Portar a config do emacs para use-package
-- [ ] Fazer o backup
-- [ ] 
+- [ ] Criar um script de deploy para os dotfiles baseado nisso [deploy.sh](https://github.com/rexim/dotfiles/blob/master/deploy.sh)
+- [x] Portar a config do emacs para use-package
+- [x] Fazer o backup
 
 # No Linux
 
 - [ ] Configurar snapshoting - timeshift/snapper - btrfs
 - [ ] Descobrir o _*Rice*_
-  - https://github.com/rcalixte/awesome-wayland?tab=readme-ov-file#screen-locking
+  - https://github.com/rcalixte/awesome-wayland
   - https://github.com/fosslife/awesome-ricing
   - https://github.com/avtzis/awesome-linux-ricing
   - https://github.com/hyprland-community/awesome-hyprland
