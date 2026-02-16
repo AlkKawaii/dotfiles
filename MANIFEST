@@ -1,2 +1,5 @@
 .emacs|symlink|
 .emacs.custom.el|symlink|
+hypr|symlink|.config
+waybar|symlink|.config
+rofi/config.rasi|symlink|.config

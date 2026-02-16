@@ -31,10 +31,13 @@
   (column-number-mode 1)
   (global-display-line-numbers-mode 1)
 
-  (setq inhibit-startup-screen t
-        tab-width 4
-        indent-tabs-mode nil
-        make-backup-files nil)
+  (setq-default inhibit-startup-screen t
+                tab-width 4
+                standard-indent 4
+                indent-tabs-mode nil
+                make-backup-files nil
+                truncate-lines nil
+                compilation-scroll-output t)
 
 
   ;; (add-to-list 'default-frame-alist '(fullscreen . maximized))
@@ -45,6 +48,13 @@
                        (whitespace-mode 1)
                        (add-hook 'before-save-hook
                                  'delete-trailing-whitespace nil t))))
+
+(use-package ansi-color
+  :ensure nil
+  :hook (compilation-filter . my/colorize-compilation-buffer)
+  :config
+  (defun my/colorize-compilation-buffer ()
+    (ansi-color-apply-on-region compilation-filter-start (point))))
 
 (use-package modus-themes
   :config
