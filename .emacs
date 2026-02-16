@@ -25,6 +25,7 @@
 (use-package emacs
   :init
 
+  (keychain-refresh-environment)
   (tool-bar-mode 0)
   (menu-bar-mode 0)
   (scroll-bar-mode 0)
