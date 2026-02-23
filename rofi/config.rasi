@@ -163,6 +163,7 @@ configuration {
 	click-to-exit: true;
 	hover-select: true;
 	sorting-method: "fzf";
+    terminal: "kitty";
   timeout {
       action: "kb-cancel";
       delay:  0;
