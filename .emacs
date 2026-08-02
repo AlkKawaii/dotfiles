@@ -57,6 +57,16 @@
   (defun my/colorize-compilation-buffer ()
     (ansi-color-apply-on-region compilation-filter-start (point))))
 
+(use-package dired
+  :ensure nil
+  :custom
+  (dired-dwim-target t)
+  (dired-listing-switches "-alhv --group-directories-first")
+  (dired-mouse-drag-files t)
+  :config
+  (require 'dired-x)
+  (setq dired-omit-files (concat dired-omit-files "\\|^\\..+$")))
+
 (use-package modus-themes
   :config
   (modus-themes-load-theme 'modus-vivendi-tinted))
