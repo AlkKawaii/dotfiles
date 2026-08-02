@@ -3,3 +3,4 @@
 hypr|symlink|.config
 waybar|symlink|.config
 rofi/config.rasi|symlink|.config
+wpaperd|symlink|.config
