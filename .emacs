@@ -137,3 +137,6 @@
 (use-package php-mode
   :mode "\\.php\\'"
   :mode "\\.inc\\'")
+
+(use-package lua-mode
+  :mode "\\.lua\\'")
