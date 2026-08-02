@@ -29,12 +29,13 @@
   (tool-bar-mode 0)
   (menu-bar-mode 0)
   (scroll-bar-mode 0)
-  (column-number-mode 1)
-  (global-display-line-numbers-mode 1)
-
+  (column-number-mode t)
+  (global-display-line-numbers-mode t)
+  (electric-pair-mode t)
   (setq-default inhibit-startup-screen t
                 tab-width 4
                 standard-indent 4
+                c-basic-offset 4
                 indent-tabs-mode nil
                 make-backup-files nil
                 truncate-lines nil
@@ -42,7 +43,7 @@
 
 
   ;; (add-to-list 'default-frame-alist '(fullscreen . maximized))
-  (add-to-list 'default-frame-alist '(font . "Iosevka Slab Extended-10"))
+  (add-to-list 'default-frame-alist '(font . "Iosevka Slab Extended-11"))
 
   ;; Whitespace handling
   :hook (prog-mode . (lambda ()
@@ -75,7 +76,7 @@
   :bind ("M-x" . smex))
 
 (use-package ido
-  :ensure nil ;;  built-in
+  :ensure nil
   :init
   (ido-mode 1)
   :custom
@@ -123,7 +124,7 @@
   :bind ("C-x g" . magit-status))
 
 (use-package markdown-mode
-  :mode (("README\\.md\\'" . gfm-mode) ;; GitHub Flavored Markdown for README
+  :mode (("README\\.md\\'" . gfm-mode)
          ("\\.md\\'" . markdown-mode)
          ("\\.markdown\\'" . markdown-mode))
   :init (setq markdown-command "multimarkdown"))
@@ -136,9 +137,3 @@
 (use-package php-mode
   :mode "\\.php\\'"
   :mode "\\.inc\\'")
-
-(use-package company-php
-  :after (php-mode company)
-  :hook (php-mode . (lambda ()
-                      (add-to-list (make-local-variable 'company-backends)
-                                   'company-ac-php-backend))))
