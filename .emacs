@@ -87,7 +87,23 @@
   (ido-ubiquitous-mode 1))
 
 (use-package company
-  :hook (after-init . global-company-mode))
+  :hook (after-init . global-company-mode)
+
+  :custom
+  (company-dabbrev-code-other-buffers t)
+  (company-dabbrev-other-buffers t)
+  (company-dabbrev-ignore-case t)
+
+  :config
+  (add-to-list 'company-backends 'company-capf))
+
+(use-package eglot
+  :ensure nil
+
+  :hook
+  ((web-mode . eglot-ensure)
+;; (c-mode . eglot-ensure)
+   ))
 
 (use-package elcord
   :config
