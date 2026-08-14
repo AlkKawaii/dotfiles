@@ -12,6 +12,7 @@
   - https://github.com/fosslife/awesome-ricing
   - https://github.com/avtzis/awesome-linux-ricing
   - https://github.com/hyprland-community/awesome-hyprland
+  - https://wiki.archlinux.org/title/Uniform_look_for_Qt_and_GTK_applications
 - [ ] Seguir [Recomendações Gerais](https://wiki.archlinux.org/title/General_recommendations)
 - [x] Ajeitar driver [NVIDIA](https://wiki.archlinux.org/title/NVIDIA)
 - [x] Ajustar [offloading](https://wiki.archlinux.org/title/NVIDIA_Optimus)
@@ -22,19 +23,18 @@
   - [x] Configurar SSH
 - [ ] Theming
 - [ ] Aliases
-- [ ] Configurar reflector ou eos-rankmirros ou qualquer equivalente
 - [ ] Ativar automaticamente numlock
   - [x] Hyprland
   - [ ] tty
 - [ ] Area de transferencia 
   - [ ] [Clipboard](https://wiki.archlinux.org/title/Clipboard)
-  - [x] [Persist](https://wiki.archlinux.org/title/Wayland#Persist_clipboard_after_app_close)
+  - [ ] [Persist](https://wiki.archlinux.org/title/Wayland#Persist_clipboard_after_app_close)
 - [ ] Ler [ArchWiki Gaming](https://wiki.archlinux.org/title/Gaming)
 - [ ] Dar uma olhada em [Plymouth](https://wiki.archlinux.org/title/Plymouth)
 - [x] Resolver elevação de privilégios [Polkit](https://wiki.archlinux.org/title/Polkit)
-- [ ] Instalar e configurar [Hyprland](https://wiki.hypr.land/)
+- [x] Instalar e configurar [Hyprland](https://wiki.hypr.land/)
 - [ ] Instalar e configurar [i3](https://wiki.archlinux.org/title/I3) como fallback
-- [ ] Configurar [Bluetooth](https://wiki.archlinux.org/title/Bluetooth)
+- [x] Configurar [Bluetooth](https://wiki.archlinux.org/title/Bluetooth)
 
 
 ## Software
@@ -49,36 +49,36 @@
 - [ ] Instalar [Boomer](https://github.com/tsoding/boomer)
 - [x] Instalar [Rofi](https://github.com/davatorium/rofi/)
 - [x] Instalar [Dunst](https://wiki.archlinux.org/title/Dunst)
-  - [ ] Wifi
+  - [x] Wifi
   - [ ] Bateria
   - [ ] Som
   - [ ] Brilho
   - [x] Bluetooth
-    - [ ] Alertar bateria baixa
+  - [ ] Alertar bateria baixa
 - [x] Instalar [Ghostty](https://github.com/ghostty-org/ghostty) -> Kitty
 - [x] Instalar [Index](https://mauikit.org/apps/index/) -> Dolphin
 - [x] Instalar [Zenity](https://en.wikipedia.org/wiki/Zenity)
 - [x] Instalar [7-Zip](https://wiki.archlinux.org/title/7-Zip)
 - [x] Instalar [imv](https://git.sr.ht/~exec64/imv)
-- [ ] Instalar [graphicsMagick](http://www.graphicsmagick.org/)
-- [ ] Instalar [cmatrix](https://github.com/abishekvashok/cmatrix)
+- [x] Instalar [graphicsMagick](http://www.graphicsmagick.org/)
+- [x] Instalar [cmatrix](https://github.com/abishekvashok/cmatrix)
 - [x] Instalar [OBS](https://wiki.archlinux.org/title/Open_Broadcaster_Software)
 - [x] Instalar [slurp](https://github.com/emersion/slurp)
 - [x] Instalar [grim](https://gitlab.freedesktop.org/emersion/grim)
   - [x] Verificar [Screenshot ArchWiki](https://wiki.archlinux.org/title/Screen_capture#Screenshot) e 
         [esse post](https://www.reddit.com/r/hyprland/comments/13ivh0c/what_tool_do_you_recommend_to_take_screenshot_in/)
-- [ ] Instalar [Blender](https://wiki.archlinux.org/title/Blender)
-- [ ] Instalar [Krita](https://krita.org/pt-br/)
+- [x] Instalar [Blender](https://wiki.archlinux.org/title/Blender)
+- [x] Instalar [Krita](https://krita.org/pt-br/)
 - [x] Instalar [Spotify-Launcher](https://wiki.archlinux.org/title/Spotify#Installation)
-- [ ] Instalar [VLC](https://wiki.archlinux.org/title/VLC_media_player)
+- [x] Instalar [mpv](https://wiki.archlinux.org/title/mpv)
 - [x] Instalar [PrismLauncher](https://prismlauncher.org/download/linux)
 - [x] Instalar [WGet](https://wiki.archlinux.org/title/Wget)
 - [ ] Instalar [Wine](https://wiki.archlinux.org/title/Wine)
 - [x] Instalar [Steam](https://wiki.archlinux.org/title/Steam)
 - [ ] Instalar [Lutris](https://lutris.net/downloads)
-- [ ] Instalar [Heroic](https://heroicgameslauncher.com/)
+- [x] Instalar [Heroic](https://heroicgameslauncher.com/)
 - [x] Instalar [Google Chrome](https://aur.archlinux.org/packages/google-chrome)
 - [x] Instalar [Discord](https://wiki.archlinux.org/title/Discord)
 - [x] Instalar [WhatsApp](https://wiki.archlinux.org/title/WhatsApp)
 - [ ] Instalar [QBittorrent](https://wiki.archlinux.org/title/QBittorrent)
-- [ ] Instalar [Flatpak](https://wiki.archlinux.org/title/Flatpak)
+- [x] Instalar [Flatpak](https://wiki.archlinux.org/title/Flatpak)
